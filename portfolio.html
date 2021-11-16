@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous"
+      />
     <link rel="stylesheet" href="./css/styles.css">
-</head>
+    </head>
 <body>
-    <header class="header-container">
+    <header class="header">
+        <div class="container">
         <nav class="header-navigation">
         <a class="link header-logo" href="http://WebStudio">Web<span class="logo-second-color">Studio</span> </a>
        <ul class="list header-menu">
@@ -25,6 +27,7 @@
            
        </ul>
     </nav>
+</div>
 <div>
     <a class="link header-address" href="mailto:info@devstudio.com">info@devstudio.com</a> 
     <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -32,13 +35,15 @@
     </header>
     <main class="portfolio">
         <section class="works">
-            <ul class="list">
+            <div class="works-button-container">
+            <ul class="list works-button-list">
                 <li> <button class="works-button">Все</button></li>
                 <li> <button class="works-button">Веб-сайты</button> </li>
                 <li> <button class="works-button">Приложения</button></li>
                 <li> <button class="works-button">Дизайн</button></li>
                 <li> <button class="works-button">Маркетинг</button></li>
             </ul>
+        </div>
             <ul class="list works-list">
                 <li><img src="./images/tech.jpg" alt="техно" width="370" height="294"><h3 class="works-title">Технокряк</h3> <p class="works-text">Веб-сайт</p></li>
                 <li><img src="./images/basketball.jpg" alt="дизайн" width="370" height="294"><h3 class="works-title">Постер New Orlean vs Golden Star</h3> <p class="works-text">Дизайн</p></li>
