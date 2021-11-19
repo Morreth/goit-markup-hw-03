@@ -332,12 +332,6 @@ color: var(--accent-color)
 }
 /*----------------------------PORTFOLIO--------------------------*/
 
-.works-list {
-display: flex;
-flex-wrap: wrap;
-padding-top: 50px;
-padding-bottom: 94px;
-}
 .works-button {
 height: 38px;
 background:var(--portfolio-button-color);
@@ -345,12 +339,12 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 22px;
 padding-right: 22px;
-border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;
+border: none;
 border-radius: 4px;
 margin-left: 8px;
 }
@@ -365,6 +359,13 @@ margin-left: 8px;
     justify-content: center;
     padding-top: 94px;
 }
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 94px;
+    }
 
 .works-card {
     padding-top: 20px;
