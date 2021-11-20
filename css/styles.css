@@ -47,6 +47,10 @@ body  {
     padding-right: 15px;
   }
 
+  .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
 /*------------------------------------------------HEADER------------------------*/
 
 
@@ -122,7 +126,7 @@ color: var(--accent-color);
 
 
 .header-address {
-    font-weight: 500;
+font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
@@ -156,16 +160,14 @@ color: var(--main-title-color);
 }
 
 .motto-container {
-padding-top: 200px;
-padding-bottom: 200px;
 padding-right: 252px;
 padding-left: 252px;
 text-align: center;
 }
 
 .main-btn {
-    padding: 10px 32px;
-    background-color: var(--main-btn-color);
+padding: 10px 32px;
+background-color: var(--main-btn-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
@@ -182,14 +184,10 @@ color: #ffffff;
 cursor: pointer;
 }
 .main-btn:active {
-    background-color: var(--second-title-color);
+background-color: var(--second-title-color);
 }
 /*------------------------------------------------HERO------------------------*/
 
-.hero {
-padding-top: 94px;
-padding-bottom: 94px;
-}
 
 .hero-list {
 display: flex;
@@ -226,21 +224,16 @@ margin-bottom: 50px;
 color: var(--second-title-color);
 }
 
-.whaddowedo-container {
-padding-bottom: 94px;
-}
-
 .whaddowedo-list {
     display: flex;
     justify-content: space-between;
 }
 
 .team {
-    background-color: var(--portfolio-button-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.team-container {
+background-color: var(--portfolio-button-color);
+ }
+
+ .team-container {
 text-align: center;
 }
 
@@ -357,14 +350,12 @@ margin-left: 8px;
 .works-button-list {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
-}
+ }
 
 .works-list {
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
-    padding-bottom: 94px;
     }
 
 .works-card {
