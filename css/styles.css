@@ -72,6 +72,7 @@ body  {
     margin-left: 93px;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-right: 20px;
 }
 
 .header-logo {
@@ -96,6 +97,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
+margin-left: 9px;
 color: #212121;
 }
 
@@ -147,6 +149,8 @@ margin-right: 50px;
 
 .motto {
     background-color: var(--footer-bcg-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .title-one {
@@ -229,6 +233,11 @@ color: var(--second-title-color);
     justify-content: space-between;
 }
 
+.whaddowedo {
+    padding-top: 0px;
+}
+
+
 .team {
 background-color: var(--portfolio-button-color);
  }
@@ -290,6 +299,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 margin-bottom: 9px;
+margin-top: 9px;
 }
 
 .footer-address:hover, 
@@ -338,6 +348,7 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;
 border: none;
+text-align: center;
 border-radius: 4px;
 margin-left: 8px;
 }
@@ -350,12 +361,13 @@ margin-left: 8px;
 .works-button-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
  }
+
 
 .works-list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
     }
 
 .works-card {
@@ -373,6 +385,10 @@ margin-bottom: 30px;
 
 .works-item:nth-child(3n) {
 margin-right: 0;
+}
+
+.works-item:nth-child(n+7) {
+    margin-bottom: 0px;
 }
 
 .works-title {
